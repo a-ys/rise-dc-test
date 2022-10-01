@@ -1,38 +1,106 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Jolly+Lodger&family=Jomhuria&family=Judson&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Jomhuria&family=Judson&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Judson&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.box-container {
+  background-color: #D8D8D8;
+  height: 70vh;
+  width: 20%;
+  min-width: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.btn{
+  box-sizing: border-box;
+  position: relative;
+  width: 124px;
+  height: 48px;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  color: black;
   text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-red{
+  box-sizing: border-box;
+  position: relative;
+  width: 124px;
+  height: 48px;
+  background-color: #FA0000;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text{
+  position: relative;
+  margin-top: 35%;
+  margin-left: 20px;
+  border-radius: 0px;
+  border: none;
+  height: 20px;
+  width: 126px;
+  background-position: 10px 10px;
+  padding-left: 10px;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+  position: relative;
+  background-color: white;
+  height: 35vh;
+  width: 340px;
+  left: 47.5%;
+  top: 40%;
+  transform: translate(-50%, 8%);
 }
 
-.App-link {
-  color: #61dafb;
+.inner-text{
+  position: relative;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 20px;
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first-text{
+  font-family:'Italianno', cursive;
+}
+
+.second-text{
+  font-family: 'Jomhuria', cursive;
+  font-size: 70px;
+}
+
+.third-text{
+  font-family: 'Jolly Lodger', cursive;
+}
+
+.fourth-text{
+  font-family: 'Judson', serif;
 }

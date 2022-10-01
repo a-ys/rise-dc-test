@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import Button from "/Users/vikas/Desktop/rise-dc-test/test/src/Button.js"
+import Input from "/Users/vikas/Desktop/rise-dc-test/test/src/Input.js"
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
+    <div className="box-container">
+     <Button /> 
+     <Input />
     </div>
   );
 }
-
-export default App;
