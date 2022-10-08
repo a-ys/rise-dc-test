@@ -1,0 +1,22 @@
+.output-box {
+    background-color: white;
+    height:50%;
+    width:85%;
+    list-style-type: none;
+    margin:0;
+    padding:10px;
+}
+
+#first {
+    font-family:'Brush Script MT', cursive;
+}
+#second {
+    font-family:'Impact', fantasy;
+}
+#third {
+    font-family:'Courier New', monospace;
+}
+#fourth {
+    font-family:'Lucida Console', Courier, monospace;
+}
+
